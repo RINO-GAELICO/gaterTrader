@@ -21,6 +21,9 @@ let sendButton = document.getElementById("send-button");
 let regSendButton = document.getElementById('regSendButton');
 let logSendButton = document.getElementById('logSendButton');
 
+
+
+
 if(logSendButton){
   logSendButton.addEventListener('click', (event)=>{
     event.preventDefault();
@@ -71,22 +74,6 @@ if(sendButton){
       
   })
   .catch((err) => console.log(err));
-
-  
-    
-    
-    
-    // .then((data) => {
-    //   console.log("send");
-    //   console.log(data.logged);
-      
-      // data.locals.logged = false;
-      // if(data.locals.logged===false){
-      //   event.preventDefault();
-      //   new bootstrap.Modal(document.getElementById('ModalToggle'));
-      // }
-      
-    // })
   
   })
 }

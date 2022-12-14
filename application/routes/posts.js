@@ -115,10 +115,7 @@ router.post( "/createPost", uploader.single("upload"), postValidation, (req, res
       //VIDEOS
 
       const p1 = new Promise((resolve, reject) => {
-        // fs.copy(fileUploaded, destinationOfThumbnail, err => {
-        //     if (err) return console.error(err)
-        //     console.log('success video uploaded!');
-        //   });
+        
         destinationOfThumbnail = "../" + fileUploaded;
         resolve(
           PostModel.create(
@@ -151,7 +148,7 @@ router.post( "/createPost", uploader.single("upload"), postValidation, (req, res
           }
         });
     } else if (category == 2) {
-      //IMAGES
+      //MUSIC
 
       const p1 = new Promise((resolve, reject) => {
         destinationOfThumbnail = "../public/images/audio_image.jpg";
