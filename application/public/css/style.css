@@ -196,6 +196,8 @@ h1 {
   border-width: thin; */
 }
 
+
+@media screen and (min-width: 300px) and (max-width: 1200px){
 #navbarSupportedContent
   > ul
   > li.nav-item.btn-group-search.active.m-auto.px-2.my-1
@@ -204,6 +206,24 @@ h1 {
   outline: none;
   text-decoration: none;
   padding: 8px;
+  display: grid;
+  
+
+  
+}
+}
+
+@media screen and (min-width: 300px) and (max-width: 1200px){
+body > div.container > div{
+display: grid;
+}
+}
+
+@media screen and (min-width: 300px) and (max-width: 1200px){
+body > div.container > div > div.col-lg-3.m-auto {
+left: 45px; 
+position: absolute;
+}
 }
 
 #dropdown-menu {
@@ -242,6 +262,15 @@ h1 {
   max-height: 300px;
 }
 
+/*  
+  @media(max-width: 991px){
+    body > div.w-100.text-center.bg-greenOne > nav {
+    	display: flex;
+    }
+} */
+
+
+
 .navbar-container {
   display: flex;
 }
@@ -250,6 +279,7 @@ h1 {
   margin-left: 0.5em;
   margin-right: 0.5em;
 }
+
 
 .open-caret {
   transform: rotate(0.5turn);
@@ -372,6 +402,11 @@ h1 {
   }
 }
 
+
+body > div.container.py-4.p-3 > div > div.col-lg-6.d-lg-block.px-2.mx-auto {
+  margin-top: 100px;
+}
+
 @media screen and (min-width: 1200px) {
   .pl-xl-0 {
     padding-left: 0;
@@ -427,4 +462,39 @@ h1 {
   list-style-type: none;
   text-transform: uppercase;
 
+}
+
+body > div.container.py-4.p-3 > div > div.col-lg-6.d-lg-block.px-2.mx-auto > div > img {
+  height: 270px;
+}
+
+
+body > div.container > div > div.col-lg-3.m-auto > h3 {
+  padding-left: 50px;
+  font-size: 30px;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+#accordion {
+  margin-top: 50px;
+}
+
+#accordionFlush{
+ margin-top: 100px;
+ position: relative;
+}
+
+body > div.container > div > div.col-lg-3.m-auto > h3 > div.mx-3 {
+  text-transform: uppercase;
+  color: bisque;
+}
+
+body > div.container > div > div.col-lg-3.m-auto {
+  position: relative;
+}
+
+body > div.container.py-4.p-3 > div > div.col-lg-6.d-lg-block.px-2.mx-auto > div > audio{
+  margin-left: 50px;
 }
