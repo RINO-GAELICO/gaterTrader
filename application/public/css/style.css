@@ -498,3 +498,9 @@ body > div.container > div > div.col-lg-3.m-auto {
 body > div.container.py-4.p-3 > div > div.col-lg-6.d-lg-block.px-2.mx-auto > div > audio{
   margin-left: 50px;
 }
+
+#post-title-format {
+  font-weight: bolder;
+  font-size:x-large;
+}
+
