@@ -1,4 +1,4 @@
-
+GaterTrader is a web platform exclusive for SFSU students, staff, and faculty to sell and share content that may be useful to all.
 
 
 | Student Name    | Student Email               | GitHub Username |
